@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => {
         port: 3000,
         host: '0.0.0.0',
         allowedHosts: [
-          'https://facesofai-v1-6.onrender.com', // add your Render URL here
+          'facesofai-v1-6.onrender.com', // add your Render URL here
         ]
       },
       plugins: [react()],
