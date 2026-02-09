@@ -1,20 +1,30 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# FacesOfAI
 
-# Run and deploy your AI Studio app
+**FacesOfAI** is a personalized AI training and deployment platform that allows users to create AI models tailored to specific concepts, personalities, or behaviors. Users can train their own AI “baby” model with custom data, interact with it, and deploy it via an API.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/drive/11yCBNW9rrZ9JzrE3vxZE2mbx0yiJJehj
+## Table of Contents
 
-## Run Locally
+- [Features](#features)  
+- [Installation](#installation)  
 
-**Prerequisites:**  Node.js
+---
 
+## Features
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- Train AI on **user-provided input** without needing massive datasets.  
+- Personalized chat interface for interactive training.  
+- API generation for deploying custom AI models.  
+- Lightweight and beginner-friendly “baby AI” architecture.  
+- Track and save conversations for continuous improvement.
+
+---
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Delisha8547/FacesOfAI.git
+cd FacesOfAI
+
